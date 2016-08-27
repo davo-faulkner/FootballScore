@@ -25,63 +25,6 @@ public class MainActivity extends AppCompatActivity {
         scoreTeamA = scoreTeamA + 6;
         displayForTeamA(scoreTeamA);
     }
-
-    /**
-     * Adds Six Points for Team B
-     */
-    public void addSixForTeamB(View view) {
-        scoreTeamB = scoreTeamB + 6;
-        displayForTeamB(scoreTeamB);
-    }
-
-    /**
-     * Adds Three Points for Team A
-     */
-    public void addThreeForTeamA(View view) {
-        scoreTeamA = scoreTeamA + 3;
-        displayForTeamA(scoreTeamA);
-    }
-
-    /**
-     * Adds Two Points for Team A
-     */
-    public void addTwoForTeamA(View view) {
-        scoreTeamA = scoreTeamA + 2;
-        displayForTeamA(scoreTeamA);
-    }
-
-    /**
-     * Adds One Point for Team A
-     */
-    public void addOneForTeamA(View view) {
-        scoreTeamA = scoreTeamA + 1;
-        displayForTeamA(scoreTeamA);
-    }
-
-    /**
-     * Adds Three Points for Team B
-     */
-    public void addThreeForTeamB(View view) {
-        scoreTeamB = scoreTeamB + 3;
-        displayForTeamB(scoreTeamB);
-    }
-
-    /**
-     * Adds Two Points for Team B
-     */
-    public void addTwoForTeamB(View view) {
-        scoreTeamB = scoreTeamB + 2;
-        displayForTeamB(scoreTeamB);
-    }
-
-    /**
-     * Adds One Point for Team B
-     */
-    public void addOneForTeamB(View view) {
-        scoreTeamB = scoreTeamB + 1;
-        displayForTeamB(scoreTeamB);
-    }
-
     /**
      * Displays the given score for Team A.
      */
@@ -89,7 +32,13 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
     }
-
+    /**
+     * Adds Six Points for Team B
+     */
+    public void addSixForTeamB(View view) {
+        scoreTeamB = scoreTeamB + 6;
+        displayForTeamB(scoreTeamB);
+    }
     /**
      * Displays the given score for Team B.
      */
@@ -97,7 +46,48 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(score));
     }
-
+    /**
+     * Adds Three Points for Team A
+     */
+    public void addThreeForTeamA(View view) {
+        scoreTeamA = scoreTeamA + 3;
+        displayForTeamA(scoreTeamA);
+    }
+    /**
+     * Adds Two Points for Team A
+     */
+    public void addTwoForTeamA(View view) {
+        scoreTeamA = scoreTeamA + 2;
+        displayForTeamA(scoreTeamA);
+    }
+    /**
+     * Adds One Point for Team A
+     */
+    public void addOneForTeamA(View view) {
+        scoreTeamA = scoreTeamA + 1;
+        displayForTeamA(scoreTeamA);
+    }
+    /**
+     * Adds Three Points for Team B
+     */
+    public void addThreeForTeamB(View view) {
+        scoreTeamB = scoreTeamB + 3;
+        displayForTeamB(scoreTeamB);
+    }
+    /**
+     * Adds Two Points for Team B
+     */
+    public void addTwoForTeamB(View view) {
+        scoreTeamB = scoreTeamB + 2;
+        displayForTeamB(scoreTeamB);
+    }
+    /**
+     * Adds One Point for Team B
+     */
+    public void addOneForTeamB(View view) {
+        scoreTeamB = scoreTeamB + 1;
+        displayForTeamB(scoreTeamB);
+    }
     /**
      * Resets the scores for both teams.
      */
