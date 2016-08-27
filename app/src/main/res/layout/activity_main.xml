@@ -45,7 +45,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addThreeForTeamA"
+                android:onClick="addSixForTeamA"
                 android:text="Touchdown"/>
 
             <Button
@@ -54,7 +54,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addTwoForTeamA"
+                android:onClick="addThreeForTeamA"
                 android:text="Field Goal"/>
 
             <Button
@@ -72,7 +72,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addTwoForTeamA"
+                android:onClick="addOneForTeamA"
                 android:text="PAT +1 Point"/>
 
             <Button
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addOneForTeamA"
+                android:onClick="addTwoForTeamA"
                 android:text="Safety"/>
 
         </LinearLayout>
@@ -125,7 +125,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addThreeForTeamB"
+                android:onClick="addSixForTeamB"
                 android:text="Touchdown"/>
 
             <Button
@@ -134,7 +134,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addTwoForTeamB"
+                android:onClick="addThreeForTeamB"
                 android:text="Field Goal"/>
 
             <Button
@@ -143,7 +143,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addTwoForTeamA"
+                android:onClick="addTwoForTeamB"
                 android:text="PAT +2 Points"/>
 
             <Button
@@ -152,7 +152,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addTwoForTeamA"
+                android:onClick="addOneForTeamB"
                 android:text="PAT +1 Point"/>
 
             <Button
@@ -160,7 +160,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addOneForTeamB"
+                android:onClick="addTwoForTeamB"
                 android:text="Safety"/>
 
         </LinearLayout>

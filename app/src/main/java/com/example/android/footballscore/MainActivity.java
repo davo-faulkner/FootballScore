@@ -19,6 +19,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * Adds Six Points for Team A
+     */
+    public void addSixForTeamA(View view) {
+        scoreTeamA = scoreTeamA + 6;
+        displayForTeamA(scoreTeamA);
+    }
+
+    /**
+     * Adds Six Points for Team B
+     */
+    public void addSixForTeamB(View view) {
+        scoreTeamB = scoreTeamB + 6;
+        displayForTeamB(scoreTeamB);
+    }
+
+    /**
      * Adds Three Points for Team A
      */
     public void addThreeForTeamA(View view) {
